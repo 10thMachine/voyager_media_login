@@ -1,4 +1,4 @@
-  {
+{
   "name": "voyager_login",
   "version": "1.0.0",
   "description": "This is the login function for Voyager Media",
@@ -9,6 +9,11 @@
   "author": "Jesstin Swadley",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "amazon-cognito-identity-js": "^3.0.14",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
   }
 }
