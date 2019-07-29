@@ -9,6 +9,9 @@ const app		= express();
 // const ejs		= require('ejs');
 // app.set('view engine', 'ejs');
 
+// Routes for Login
+app.use('/', require('./routes/landing.js'));
+
 app.listen(3000, () => {
 	console.log('Server is up');
 })
