@@ -19,7 +19,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes for Login
-app.use('/', require('./routes/landing.js'));
+app.use('/', require('./routes/register.js'));
+app.use('/login', require('./routes/login.js'));
 
 app.listen(PORT, () => {
 	console.log(`Server is up on port ${PORT}`);
